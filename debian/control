@@ -12,7 +12,7 @@ Description: minimal pypi server
  .. -*- mode: rst; coding: utf-8 -*-
  .
  ==============================================================================
- pypiserver - minimal PyPI server for use with pip/easy_install
+ pypiserver - minimal PyPI server for use with pip/easy_install a
  ==============================================================================
  .
  .
