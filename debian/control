@@ -1,0 +1,31 @@
+Source: pypiserver
+Maintainer: Pablo Torres <pablo.torres@deri.org>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7.4.3)
+Standards-Version: 3.9.1
+
+Package: python-pypiserver
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: minimal pypi server
+ .. -*- mode: rst; coding: utf-8 -*-
+ .
+ ==============================================================================
+ pypiserver - minimal PyPI server for use with pip/easy_install
+ ==============================================================================
+ .
+ .
+ :Authors: Ralf Schmitt <ralf@systemexit.de>
+ :Version: 1.1.3
+ :Date:    2013-07-22
+ :Download: https://pypi.python.org/pypi/pypiserver#downloads
+ :Code: https://github.com/schmir/pypiserver
+ .
+ .
+ .. contents:: Table of Contents
+   :backlinks: top
+ .
+ .
+ pypiserver is a minimal PyPI compatible server. It can be used to
+ serve a set of packages and eggs to easy_install or pip.
