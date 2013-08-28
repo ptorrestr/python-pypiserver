@@ -2,12 +2,12 @@ Source: pypiserver
 Maintainer: Pablo Torres <pablo.torres@deri.org>
 Section: python
 Priority: optional
-Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3)
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper(>= 7.4.3)
 Standards-Version: 3.9.1
 
 Package: python-pypiserver
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, debhelper (>= 7.4.3), python-pkg-resources (>= 0.6.24), python-passlib (>=1.5.3-2)
+Depends: ${misc:Depends}, ${python:Depends}, python-pkg-resources (>= 0.6.24), python-passlib (>=1.5.3-2)
 Description: minimal pypi server
  .. -*- mode: rst; coding: utf-8 -*-
  .
