@@ -7,7 +7,7 @@ Standards-Version: 3.9.1
 
 Package: python-pypiserver
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, python-pkg-resources (>= 0.6.24), python-passlib (==1.5.3-2)
+Depends: ${misc:Depends}, ${python:Depends}, python-pkg-resources (>= 0.6.24), python-passlib (<=1.5.3-2)
 Description: minimal pypi server
  .. -*- mode: rst; coding: utf-8 -*-
  .
